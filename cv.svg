@@ -19,6 +19,13 @@
 	.st13{fill:none;}
 </style>
 <g>
+	<animateTransform attributeName="transform"
+		attributeType="XML"
+		type="rotate"
+		from="0 50 50"
+		to="360 50 50"
+		dur="10s"
+		repeatCount="indefinite" />
 	<defs>
 		<rect id="SVGID_1_" width="639.37" height="962.22"/>
 	</defs>
