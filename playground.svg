@@ -9,6 +9,25 @@
 	</radialGradient>
 </defs> -->
 <style type="text/css">
+	svg {
+		background: linear-gradient(45deg, #061950, #3F6DF5, #F9D061, #FF793A, #4017A1);
+		background-size: 1000% 1000%;
+		animation: GradientBackground 10s ease infinite;
+	}
+
+	@keyframes GradientBackground {
+		0% {
+			background-position: 0% 50%;
+		}
+
+		50% {
+			background-position: 100% 50%;
+		}
+
+		100% {
+			background-position: 0% 50%;
+		}
+	};
 	.st0{clip-path:url(#SVGID_2_);}
 	.st1{fill:#2A3254;}
 	.st2{fill:url(#MyGradient)}
@@ -55,6 +74,112 @@
 		c-7.98,0-14.45,6.47-14.45,14.45v413.34C66.14,630.05,72.61,636.52,80.59,636.52z"/>
 		<foreignObject x="20" y="20" width="600" height="600">
 			<style type="text/css">
+				.page {}
+				.page .content{}
+				.page .content .card{}
+				.page .content .card .content{}
+				.page .content .card .menu{}
+
+				* {
+					border: 0;
+					box-sizing: border-box;
+					margin: 0;
+					padding: 0;
+				}
+				:root {
+					--dur: 0.3s;
+					font-size: calc(40px + (80 - 40)*(100vw - 320px)/(2560 - 320));
+				}
+				body, input {
+					color: hsl(0,0%,10%);
+					font: 1em/1.5 sans-serif;
+				}
+				form, .toggle:before, .toggle:after {
+					background: hsl(0,0%,90%);
+				}
+				form, .toggle {
+					position: relative;
+				}
+				form {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 100vh;
+				}
+				.curtain, .sr, .toggle:before, .toggle:after {
+					position: absolute;
+				}
+				.curtain, .toggle:before, .toggle:after {
+					transition: transform var(--dur);
+				}
+				.curtain, .toggle:before, .toggle:checked:after  {
+					transition-timing-function: ease-out;
+				}
+				.curtain, .sr {
+					top: 0;
+					left: 0;
+				}
+				.curtain {
+					background: hsl(0,0%,100%);
+					mix-blend-mode: difference;
+					pointer-events: none;
+					width: 100%;
+					height: 100%;
+					transform: scaleX(0);
+					transform-origin: 0 50%;
+				}
+				.sr, .toggle {
+					overflow: hidden;
+				}
+				.sr {
+					clip: rect(1px,1px,1px,1px);
+					color: transparent;
+					width: 1px;
+					height: 1px;
+				}
+				.toggle {
+					background: currentColor;
+					border-radius: 0.75em;
+					cursor: pointer;
+					width: 3em;
+					height: 1.5em;
+					-webkit-appearance: none;
+					appearance: none;
+					-webkit-tap-highlight-color: transparent;
+				}
+				.toggle:before, .toggle:after {
+					border-radius: 50%;
+					content: "";
+					display: block;
+					top: 0.25em;
+					left: 0.25em;
+					width: 1em;
+					height: 1em;
+				}
+				.toggle:before, .toggle:checked:after {
+					transition-delay: 0s;
+				}
+				.toggle:checked:before, .toggle:after {
+					transition-delay: calc(var(--dur) * 0.75);
+					transition-timing-function: cubic-bezier(0.3,1.6,0.5,0.7);
+				}
+				.toggle:before {
+					transform: translateX(-1.5em);
+				}
+				.toggle:checked:before {
+					transform: translateX(1.5em);
+				}
+				.toggle:checked:after {
+					transform: translateX(3em);
+				}
+				.toggle:checked ~ .curtain {
+					transform: scaleX(1);
+				}
+				.toggle:focus {
+					outline: transparent;
+				}
+
+
 				.cm-s-seti {
 					background-color: #151718 !important;
 					color: #CFD2D1 !important;
@@ -1009,6 +1134,19 @@
 			-->
 			
 			<div xmlns="http://www.w3.org/1999/xhtml" class="cm-s-seti">
+				<form>
+					<input id="dark-mode" class="toggle" type="checkbox" name="Dark mode" role="switch" value="on" />
+					<label for="dark-mode" class="sr">Dark Mode</label>
+					<div class="curtain"></div>
+				</form>
+				<marquee behavior="scroll" scrollamount="10" direction="left">
+					<a href="#"><span class="cm-keyword">const</span></a>
+					<a href="#"><span class="cm-keyword">const</span></a>
+					<a href="#"><span class="cm-keyword">const</span></a>
+					<a href="#"><span class="cm-keyword">const</span></a>
+					<a href="#"><span class="cm-keyword">const</span></a>
+				</marquee>
+
 				<div id="sky" class="target animate">
 
 					<div id="cloud" class="target animate">
@@ -1044,7 +1182,7 @@
 					porta vel dui convallis, rutrum imperdiet eros. Aliquam
 					erat volutpat.
 				</marquee>
-				<span style="padding-right: 0.1px;" onmouseover="console.log(this);"><span class="cm-keyword">const</span> <span class="cm-def">pluckDeep</span> <span class="cm-operator">=</span> <span class="cm-def">key</span> <span class="cm-operator">=&gt;</span> <span class="cm-def">obj</span> <span class="cm-operator">=&gt;</span> <span class="cm-variable-2">key</span>.<span class="cm-property">split</span>(<span class="cm-string">'.'</span>).<span class="cm-property">reduce</span>((<span class="cm-def">accum</span>, <span class="cm-def">key</span>) <span class="cm-operator">=&gt;</span> <span class="cm-variable-2">accum</span>[<span class="cm-variable-2">key</span>], <span class="cm-variable-2">obj</span>)</span>
+				<span style="padding-right: 0.1px;"><span class="cm-keyword">const</span> <span class="cm-def">pluckDeep</span> <span class="cm-operator">=</span> <span class="cm-def">key</span> <span class="cm-operator">=&gt;</span> <span class="cm-def">obj</span> <span class="cm-operator">=&gt;</span> <span class="cm-variable-2">key</span>.<span class="cm-property">split</span>(<span class="cm-string">'.'</span>).<span class="cm-property">reduce</span>((<span class="cm-def">accum</span>, <span class="cm-def">key</span>) <span class="cm-operator">=&gt;</span> <span class="cm-variable-2">accum</span>[<span class="cm-variable-2">key</span>], <span class="cm-variable-2">obj</span>)</span>
 				<span style="padding-right: 0.1px;"><span cm-text="">​</span></span>
 				<span style="padding-right: 0.1px;"><span class="cm-keyword">const</span> <span class="cm-def">compose</span> <span class="cm-operator">=</span> (<span class="cm-meta">...</span><span class="cm-def">fns</span>) <span class="cm-operator">=&gt;</span> <span class="cm-def">res</span> <span class="cm-operator">=&gt;</span> <span class="cm-variable-2">fns</span>.<span class="cm-property">reduce</span>((<span class="cm-def">accum</span>, <span class="cm-def">next</span>) <span class="cm-operator">=&gt;</span> <span class="cm-variable-2">next</span>(<span class="cm-variable-2">accum</span>), <span class="cm-variable-2">res</span>)</span>
 				<span style="padding-right: 0.1px;"><span cm-text="">​</span></span>
