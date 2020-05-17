@@ -85,18 +85,14 @@
 				.cm-s-seti .CodeMirror-activeline-background { background: #101213; }
 				.cm-s-seti .CodeMirror-matchingbracket { text-decoration: underline; color: white !important; }
 			</style>
-			<script>
-				window.test = function(input) {
-					console.log(input);
-				};
-			</script>
+		
 			<!--
 				In the context of SVG embedded in an HTML document, the XHTML 
 				namespace could be omitted, but it is mandatory in the 
 				context of an SVG document
 			-->
 			
-			<div xmlns="http://www.w3.org/1999/xhtml" class="cm-s-seti" onmouseover="window.test(this);">
+			<div xmlns="http://www.w3.org/1999/xhtml" class="cm-s-seti">
 				<marquee>Este texto vai "rolar" da direita para esquerda</marquee>
 
 				<marquee direction="up">Este texto vai rolar de baixo para cima.</marquee>
