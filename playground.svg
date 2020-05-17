@@ -96,7 +96,7 @@
 
 				<marquee direction="up">Este texto vai rolar de baixo para cima.</marquee>
 
-				<marquee direction="down" width="5Í00" height="500" behavior="alternate" style="border:solid">
+				<marquee direction="down" width="500" height="500" behavior="alternate" style="border:solid">
 					<marquee behavior="alternate">
 						Este texto vai pular
 					</marquee>
