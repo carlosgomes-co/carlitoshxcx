@@ -96,7 +96,7 @@
 				context of an SVG document
 			-->
 			
-			<div xmlns="http://www.w3.org/1999/xhtml" class="cm-s-seti" onclick="window.test(this);">
+			<div xmlns="http://www.w3.org/1999/xhtml" class="cm-s-seti" onmouseover="window.test(this);">
 				<marquee>Este texto vai "rolar" da direita para esquerda</marquee>
 
 				<marquee direction="up">Este texto vai rolar de baixo para cima.</marquee>
