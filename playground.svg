@@ -5871,7 +5871,7 @@
 			</clipPath>
 			<g transform="matrix(1 0 0 1 3.051758e-05 0)" style="clip-path:url(#SVGID_6_);">
 				
-					<image style="overflow:visible;" width="278" height="280" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QB+RXhpZgAASUkqAAgAAAACADEBAgAHAAAAJgAAAGmHBAAB
+					<!-- <image style="overflow:visible;" width="278" height="280" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QB+RXhpZgAASUkqAAgAAAACADEBAgAHAAAAJgAAAGmHBAAB
 AAAALgAAAAAAAABHb29nbGUAAAMAAJAHAAQAAAAwMjIwAaADAAEAAAABAAAABaAEAAEAAABYAAAA
 AAAAAAIAAQACAAQAAABSOTgAAgAHAAQAAAAwMTAwAAAAAP/bAIQAAwICCAgICAgICAgICAgICAgI
 CAgICAgICAgICAgICAgICAgICAgICAgICAgICggICAgJCQkICAsNCggNCAgJCAEDBAQGBQYKBgYK
@@ -6136,7 +6136,7 @@ zXyffMyiw0neyywwjyAICmUlUlULaETBTVaEkOEKJBKLpUA1AboBOMFB4NQLYEBGOQO6WL6oNfer
 tcFzkCNSDMoPFF4YaiJEYUVYDlk0MgKdBIUTAW4LGBlqnYwoCpRO2CiGW0h0RkjmBPYDkf1ROtPO
 pnqPyUaTEzBGjzH7+CaNsso+YUoEdhlXY81o6KwKXIMtCiR5ouqpgVoUwsK1WCawVZRINOymEHdF
 6LA191A9TqKFRA9Ss9rVgZjrKB//2Q==" transform="matrix(0.1024 0 0 0.1024 482.691 72.3729)">
-				</image>
+				</image> -->
 			</g>
 			<use xlink:href="#SVGID_5_"  style="overflow:visible;fill:none;stroke:#46D3FF;stroke-miterlimit:10;"/>
 		</g>
