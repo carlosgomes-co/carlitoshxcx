@@ -1,1 +1,1 @@
-![CV](cv.svg)
+![CV](https://github.com/carlitoshxcx/carlitoshxcx/blob/master/cv.svg)
