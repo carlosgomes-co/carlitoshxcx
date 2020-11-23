@@ -1140,11 +1140,11 @@
 					<div class="curtain"></div>
 				</form>
 				<marquee behavior="scroll" scrollamount="10" direction="left">
-					<a href="#"><span class="cm-keyword">const</span></a>
-					<a href="#"><span class="cm-keyword">const</span></a>
-					<a href="#"><span class="cm-keyword">const</span></a>
-					<a href="#"><span class="cm-keyword">const</span></a>
-					<a href="#"><span class="cm-keyword">const</span></a>
+					<a href="#1"><span class="cm-keyword">const</span></a>
+					<a href="#2"><span class="cm-keyword">const</span></a>
+					<a href="#3"><span class="cm-keyword">const</span></a>
+					<a href="#4"><span class="cm-keyword">const</span></a>
+					<a href="#5"><span class="cm-keyword">const</span></a>
 				</marquee>
 
 				<div id="sky" class="target animate">
