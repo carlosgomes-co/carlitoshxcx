@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" viewBox="0 0 639.37 962.22" style="enable-background:new 0 0 639.37 962.22;/* background-color: #24292e; */" xml:space="preserve"><script xmlns=""/><script xmlns=""/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" viewBox="0 0 639.37 962.22" style="enable-background:new 0 0 639.37 962.22;/* background-color: #22272e; */" xml:space="preserve"><script xmlns=""/><script xmlns=""/><script xmlns=""/>
 	<defs>
 		<radialGradient xmlns="http://www.w3.org/2000/svg" id="MyGradient">
-			<stop offset="10%" stop-color="#37a9ff3b" style="&#10;    background: #37a9ff3b;&#10;"/>
-			<stop offset="95%" stop-color="#1fe6681c" style="&#10;    background: #1fe6681c;&#10;"/>
+			<stop offset="10%" stop-color="#6b7cff2e"/>
+			<stop offset="95%" stop-color="#25c5ec0a"/>
 		</radialGradient>
 	</defs>
 <style type="text/css">
@@ -24,24 +24,22 @@
 	.st13{clip-path:url(#SVGID_4_);}
 	.st14{fill:none;}
 </style>
+
+<g>
+	<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 400 200" to="360 500 50" dur="60s" repeatCount="indefinite"/>
+	<path class="st2" d="M1031.27,0c46.91-397.85-206.85-505.63-438.15-494.65c-275.15,13.07-486.98-88.99-747.87,158.9l0,0   C-415.65-87.86-433.02,165.88-332.9,392.01c81.29,183.61,247.13,457.11,414.87,467.42c238.4,14.65,283.63-189.23,470.85-243.44   C774.35,551.85,1000.7,259.33,1031.27,0z"/>
+</g>
 <g>
 	<defs>
 		<path id="SVGID_1_" d="M40,962.22h559.37c22.09,0,40-17.91,40-40V40c0-22.09-17.91-40-40-40H40C17.91,0,0,17.91,0,40v882.22    C0,944.31,17.91,962.22,40,962.22z"/>
 	</defs>
-	<use xlink:href="#SVGID_1_" style="overflow:visible;fill: #251250e6;"/>
+	<use xlink:href="#SVGID_1_" style="overflow:visible;fill: #12275008;"/>
 	<clipPath id="SVGID_2_">
 		<use xlink:href="#SVGID_1_" style="overflow:visible;"/>
 	</clipPath>
 	<g class="st0">
 		<polyline class="st1" points="0,986.22 0,962.22 639.37,962.22 639.37,986.22   "/>
 	</g>
-</g>
-<g>
-	<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 400 200" to="360 500 50" dur="60s" repeatCount="indefinite"/>
-	<path class="st2" d="M1031.27,0c46.91-397.85-206.85-505.63-438.15-494.65c-275.15,13.07-486.98-88.99-747.87,158.9l0,0   C-415.65-87.86-433.02,165.88-332.9,392.01c81.29,183.61,247.13,457.11,414.87,467.42c238.4,14.65,283.63-189.23,470.85-243.44   C774.35,551.85,1000.7,259.33,1031.27,0z"/>
-</g>
-<g>
-	<path class="st3" d="M80.59,636.52h136.47c7.98,0,14.45-6.47,14.45-14.45V208.74c0-7.98-6.47-14.45-14.45-14.45H80.59   c-7.98,0-14.45,6.47-14.45,14.45v413.34C66.14,630.05,72.61,636.52,80.59,636.52z"/>
 </g>
 <g>
 	<path class="st4" d="M83.47,49.21c-1.51,0-2.35,0.8-2.35,2.53v5.7c0,1.72,0.84,2.53,2.39,2.53c2,0,2.17-1.35,2.25-2.21   c0.04-0.51,0.45-0.69,1.02-0.69c0.72,0,1.06,0.22,1.06,1.08c0,2.16-1.78,3.66-4.47,3.66c-2.37,0-4.33-1.2-4.33-4.37v-5.7   c0-3.17,1.98-4.37,4.35-4.37c2.68,0,4.45,1.47,4.45,3.55c0,0.88-0.33,1.08-1.04,1.08c-0.63,0-1.02-0.22-1.04-0.69   C85.72,50.62,85.49,49.21,83.47,49.21z"/>
@@ -64,6 +62,8 @@
 	<path class="st4" d="M130.87,111.2c0-3.47-6.37-2.12-6.37-6.82c0-2.9,2.43-3.76,4.53-3.76c1.27,0,3.57,0.33,3.57,1.41   c0,0.39-0.27,1.12-0.86,1.12c-0.53,0-1.04-0.74-2.7-0.74c-1.43,0-2.45,0.55-2.45,1.78c0,2.9,6.37,1.59,6.37,6.8   c0,2.8-1.88,4.17-4.47,4.17c-2.55,0-4.33-1.33-4.33-2.31c0-0.47,0.41-1.12,0.9-1.12c0.71,0,1.18,1.55,3.35,1.55   C129.81,113.28,130.87,112.61,130.87,111.2z"/>
 </g>
 <g>
+	<path class="st3" d="M80.59,636.52h136.47c7.98,0,14.45-6.47,14.45-14.45V208.74c0-7.98-6.47-14.45-14.45-14.45H80.59   c-7.98,0-14.45,6.47-14.45,14.45v413.34C66.14,630.05,72.61,636.52,80.59,636.52z"/>
+</g><g>
 	<rect x="67" y="31.92" class="st5" width="99.88" height="100.15"/>
 	<rect x="167.67" y="31.92" class="st5" width="61.33" height="62.64"/>
 	<rect x="190.9" y="94.7" class="st5" width="38.1" height="37.38"/>
